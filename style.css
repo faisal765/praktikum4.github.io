@@ -1,0 +1,101 @@
+body { 
+background-color: #00ADB5;
+}
+
+.wrap {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.head{
+    background-color: #EEEEEE;
+    color: black;
+    padding-bottom: 1px;
+}
+
+.head h2{
+    margin: 10px;
+}
+
+.header { 
+    height:auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content {
+    width: 70%;
+    height:auto;
+    background-color: white;
+    float:right;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.sidebar {
+    width:28%;
+    height:250px;
+    background-color : #F5F5F5;
+    float:left;
+}
+
+.sidebar p{
+    text-align: center;
+}
+
+.footer {
+    height:auto;
+    background-color:white;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;   
+}
+.clear {
+    clear:both;
+}
+
+.gambara {
+    height : 250px;
+    width  : 100%;
+}
+.gambar {
+    height : 150px;
+    width : 150px;
+    float : left;
+    margin : 5px;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	padding:0;
+	width: 100%;
+	margin:0;
+	background: #30E3CA;
+
+}
+nav.menu ul li {
+	float:left;
+    
+}
+nav.menu ul a {
+    display:inline-block;
+    text-decoration: none;
+	padding: 5px;
+	font: weight 80px;;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+    padding: 14px 15px;
+	
+}
+nav.menu ul a:hover {
+	background-color: red;
+}
